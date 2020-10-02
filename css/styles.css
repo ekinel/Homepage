@@ -19,6 +19,7 @@ header{
     background-color: #0F7BFF;
     border-radius: 0px 0px 15px 15px;
     margin-left: 140px;
+    float: left;
 }
 
 #logo-text{
@@ -28,4 +29,24 @@ header{
     color:white;
     padding-left: 26px;
     padding-top: 44px;
+}
+
+#menu{
+    padding-top: 44px;
+    padding-left: 1179px;
+}
+
+#menu ul li{
+    float: left;
+    margin-left: 41px;
+    color: #929292;
+    text-transform: uppercase;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#menu ul li:first-child{
+    margin-left: 29px;
+    color: #0F7BFF;
 }
