@@ -32,21 +32,46 @@ header{
 }
 
 #menu{
-    padding-top: 44px;
-    padding-left: 1179px;
+    /*padding-left: 1179px;*/
+    padding-top: 43px;
+    text-align: right;
 }
 
-#menu ul li{
-    float: left;
-    margin-left: 41px;
+#menu a{
     color: #929292;
-    text-transform: uppercase;
+    margin-left: 41px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 16px;
+    line-height: 27px;
+    text-transform: uppercase;
+    line-height: 27px;
 }
 
-#menu ul li:first-child{
-    margin-left: 29px;
+#menu a:first-child{
     color: #0F7BFF;
+    margin-left: 0;
+}
+
+
+#sign-button{
+    z-index: 1;
+    /*margin-left: 1700px;*/
+    /*margin-left: 50px;*/
+    margin-right: 140px;
+    margin-left: 53px;
+    background-color: #0063dd;
+
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+#sign-button{
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
 }
