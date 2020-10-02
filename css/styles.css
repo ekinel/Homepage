@@ -1,6 +1,31 @@
 
 header{
-    height: 1040px;
-    width: 1900px;
-    background: url(img/Background.png) repeat-y #fc0;
+    height: 1043px;
+    width: 1920px;
+    background: url(../img/Background.png);
+}
+
+.background{
+    z-index: 1;
+}
+
+.nav-bar{
+    z-index: 2;
+}
+
+#logo{
+    width: 182px;
+    height: 102px;
+    background-color: #0F7BFF;
+    border-radius: 0px 0px 15px 15px;
+    margin-left: 140px;
+}
+
+#logo-text{
+    font-size: 36px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    color:white;
+    padding-left: 26px;
+    padding-top: 44px;
 }
