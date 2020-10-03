@@ -14,26 +14,31 @@ header{
 }
 
 #logo{
-    width: 182px;
-    height: 102px;
+    width: 179px;
+    height: 100px;
     background-color: #0F7BFF;
-    border-radius: 0px 0px 15px 15px;
+    border-radius: 0px 0px 22px 22px;
     margin-left: 140px;
     float: left;
-}
 
-#logo-text{
     font-size: 36px;
     font-family: 'Quicksand', sans-serif;
     font-weight: bold;
     color:white;
-    padding-left: 26px;
-    padding-top: 44px;
+
+    text-align: center;
+    padding-top: 30px;
+
+}
+
+#logo-text{
+
+    padding-left: 20px;
 }
 
 #menu{
     /*padding-left: 1179px;*/
-    padding-top: 43px;
+    padding-top: 40px;
     text-align: right;
 }
 
@@ -43,7 +48,7 @@ header{
     font-family: 'Quicksand', sans-serif;
     font-weight: 500;
     font-size: 16px;
-    line-height: 27px;
+    line-height: 27px;  
     text-transform: uppercase;
     line-height: 27px;
 }
@@ -61,7 +66,6 @@ header{
     margin-right: 140px;
     margin-left: 53px;
     background-color: #0063dd;
-
     width: 165px;
     height: 50px;
     border-radius: 25px;
