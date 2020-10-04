@@ -1,16 +1,68 @@
+body{
+    max-width: 1920px;
+    float: left;
+}
 
 header{
     height: 1043px;
-    width: 1920px;
     background: url(../img/Background.png);
 }
 
-.background{
-    z-index: 1;
+h1{
+    font-size: 36px;
+    line-height: 24px;
+    color: #333333;
+    font-weight: 700;
+    font-family: 'Quicksand', sans-serif;
+
 }
 
-.nav-bar{
-    z-index: 2;
+h3{
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    font-weight: 500;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+}
+
+h4{
+    
+    font-size: 16px;
+    line-height: 27px;
+    color: #929292;
+    font-weight: 400;
+    font-family: 'Quicksand', sans-serif;
+}
+
+.blue-button{
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    background-color: #0f7bff;
+    text-align: center;
+
+
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Quicksand";
+}
+
+.white-button{
+    width: 165px;
+    height: 50px;
+    border-radius: 25px;
+    background-color:  #ffffff;
+    border: 2px solid #0f7bff;
+
+    font-size: 16px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-weight: 700;
+    font-family: "Quicksand";
+    text-align: center;
 }
 
 #logo{
@@ -32,12 +84,10 @@ header{
 }
 
 #logo-text{
-
     padding-left: 20px;
 }
 
 #menu{
-    /*padding-left: 1179px;*/
     padding-top: 40px;
     text-align: right;
 }
@@ -59,10 +109,9 @@ header{
 }
 
 
+
 #sign-button{
     z-index: 1;
-    /*margin-left: 1700px;*/
-    /*margin-left: 50px;*/
     margin-right: 140px;
     margin-left: 53px;
     background-color: #0063dd;
@@ -82,57 +131,16 @@ header{
 
 .elements{
     text-align: center;
-
 }
 
-h1{
-    font-size: 36px;
-    line-height: 24px;
-    color: #333333;
-    font-weight: 700;
-    font-family: 'Quicksand', sans-serif;
-
+.elements h1{
     margin-top: 141px;
 }
 
-h4{
+.elements h4{
     width: 651px;
     margin: 0 auto;
     margin-top: 26px;
-    font-size: 16px;
-    line-height: 27px;
-    color: #929292;
-    font-weight: 400;
-    font-family: 'Quicksand', sans-serif;
-}
-
-.blue-button{
-    width: 165px;
-    height: 50px;
-    border-radius: 25px;
-    background-color: #0f7bff;
-
-    font-size: 16px;
-    line-height: 27px;
-    color: #ffffff;
-    font-weight: 700;
-    font-family: "Quicksand";
-    text-align: center;
-}
-
-.white-button{
-    width: 165px;
-    height: 50px;
-    border-radius: 25px;
-    background-color:  #ffffff;
-    border: 2px solid #0f7bff;
-
-    font-size: 16px;
-    line-height: 27px;
-    color: #0f7bff;
-    font-weight: 700;
-    font-family: "Quicksand";
-    text-align: center;
 }
 
 #download-button{
@@ -147,24 +155,9 @@ h4{
 
 .device{
     position: relative;
-
 }
 
-
-/*#img1{
-    display: inline-block;
-    margin: 0 auto;
-}
-
-#img2{
-    display: inline-block;
-    margin: 0 auto;
-
-
-}
-*/
-
-#img1{
+#devices-top{
     display: inline-block;
     position: absolute;
     left: 25.5%;
@@ -175,9 +168,82 @@ h4{
     margin-right: 190px;
 }
 
-#img2{
+#devices-bottom{
     display: inline-block;
     position: absolute;
     left: 38%;
+    margin-top: 7px;
 }
 
+/*Features here*/
+.features{
+    height: 638px;
+    background-color: #f5fcfd;
+    position: relative; 
+}
+
+#scroll-button{
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    background-color: #ffffff;
+    border: 1px solid #dcdcdc;
+    background: center url(../img/Icon.png) no-repeat ;
+    display: block;
+    margin: 0 auto;
+}
+
+#features-block-left, #features-block-right, #features-block-center{
+    width: 360px;
+    height: 290px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 12.5px #f0f0f0);
+    background-color: #ffffff;
+    float: left;
+}
+
+#features-block-left img, #features-block-right img, #features-block-center img{
+    width: 70px;
+    height: 70px;
+    margin-top: 40px;
+    margin-left: 144px;
+}
+
+#features-block-left h3, #features-block-right h3, #features-block-center h3{
+    margin-top: 30px;
+}
+
+#features-block-left h4, #features-block-right h4, #features-block-center h4{
+    text-align: center;
+    margin-top: 20px;
+}
+
+#features-block-center{
+    position: absolute;
+    margin-top: 175px;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -0)
+}
+
+#features-block-right{
+    position: absolute;
+    margin-top: 90px;
+    margin-right: 210px;
+
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(210px, -0)
+
+}
+
+#features-block-left{
+    position: absolute;
+    margin-top: 90px;
+    margin-left: 210px;
+
+    right: 50%;
+    margin-left: -50%;
+    transform: translate(-210px, -0)
+
+}
