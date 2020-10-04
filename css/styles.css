@@ -17,6 +17,14 @@ h1{
 
 }
 
+h2{
+    font-size: 32px;
+    line-height: 36px;
+    color: #333333;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
 h3{
     font-size: 18px;
     line-height: 27px;
@@ -200,6 +208,7 @@ h4{
     filter: drop-shadow(0 0 12.5px #f0f0f0);
     background-color: #ffffff;
     float: left;
+    position: absolute;
 }
 
 #features-block-left img, #features-block-right img, #features-block-center img{
@@ -219,7 +228,6 @@ h4{
 }
 
 #features-block-center{
-    position: absolute;
     margin-top: 175px;
     left: 50%;
     margin-right: -50%;
@@ -227,10 +235,8 @@ h4{
 }
 
 #features-block-right{
-    position: absolute;
     margin-top: 90px;
     margin-right: 210px;
-
     left: 50%;
     margin-right: -50%;
     transform: translate(210px, -0)
@@ -238,12 +244,93 @@ h4{
 }
 
 #features-block-left{
-    position: absolute;
     margin-top: 90px;
     margin-left: 210px;
-
     right: 50%;
     margin-left: -50%;
     transform: translate(-210px, -0)
+}
 
+/*About block here*/
+.about{
+    height: 1200px;
+    background-color: #ffffff;
+}
+
+#about-background-image{
+    position: absolute;
+    width: 1920px;
+    margin-left: -40px;
+}
+
+#about-img-1{
+    position: absolute;
+    margin-left: 380px;
+    margin-top: 75px;
+    border-radius: 5px;
+}
+
+#about-img-2{
+    position: absolute;
+    margin-left: 550px;
+    margin-top: 105px;
+    border-radius: 5px;
+    
+}
+
+#about-text-1{
+    position: absolute;
+    height: 158px;
+    width: 544px;
+    right: 380px;
+    margin-top: 220px;
+}
+
+#about-text-1 h4, #about-text-2 h4{
+    margin-top: 30px;
+    margin-bottom: 36px;
+}
+
+.blue-link{
+    font-size: 16px;
+    line-height: 27px;
+    color: #0f7bff;
+    font-weight: 500;
+    font-family: "Quicksand";
+}
+
+#about-text-1 .blue-link, #about-text-2 .blue-link{
+    width: 106px;
+    height: 15px;
+}
+
+.icon-arrow{
+    width: 15px;
+    height: 11px;
+    margin-top: 8px;
+    right: 0;
+}
+
+#about-img-3{
+    position: absolute;
+    margin-top: 650px;
+    margin-right: 370px;
+    border-radius: 5px;
+    right: 0;  
+}
+
+#about-img-4{
+    position: absolute;
+    margin-top: 620px;
+    margin-right: 500px;
+    border-radius: 5px;
+    right: 0;  
+}
+
+#about-text-2{
+    position: absolute;
+    width: 544px;
+    height: 210px;
+    margin-top: 755px;
+    margin-left: 390px;
 }
