@@ -22,7 +22,7 @@ h2{
     line-height: 36px;
     color: #333333;
     font-weight: 500;
-    font-family: "Quicksand";
+    font-family: 'Quicksand', sans-serif;
 }
 
 h3{
@@ -334,7 +334,59 @@ h4{
 }
 
 /*About how-does-it-work here*/
-.how-does-it-work{
+.how-does-it-works{
     height: 649px;
     background-color: #f5fcfd;
+    position: relative;
+
+}
+
+.how-does-it-works h2{
+    position: absolute;
+    margin: 0 auto;
+    width: 329px;
+    height: 36px;
+    margin-top: 150px;
+    left: 0;
+    right: 0;
+}
+
+.how-does-it-works h4{
+    position: absolute;
+    margin: 0 auto;
+    width: 761px;
+    height: 54px;
+    margin-top: 205px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+
+#line{
+    width: 680px;
+    height: 1px;
+    border: 1px solid #0f7bff;
+    margin: auto;
+    position: absolute;
+    margin-top: 350px;
+    left: 0;
+    right: 0;
+}
+
+#blue-image-1{
+    background: url(../img/symbol-1.png) no-repeat;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-top: 140px;
+    margin-left: 893px;
+}
+
+#blue-image-2{
+    background: url(../img/symbol-2.png) no-repeat;
+    width: 65px;
+    height: 65px;
+    position: absolute;
+    margin-top: 130px;
+    margin-left: 938px;
 }
