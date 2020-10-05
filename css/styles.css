@@ -351,7 +351,7 @@ h4{
     right: 0;
 }
 
-.how-does-it-works h4{
+#how-does-h4-title{
     position: absolute;
     margin: 0 auto;
     width: 761px;
@@ -389,4 +389,34 @@ h4{
     position: absolute;
     margin-top: 130px;
     margin-left: 938px;
+}
+
+#how-works-account, #how-works-email, #how-works-results{
+    position: absolute;
+    width: 298px;
+    height: 218px;
+    text-align: center;
+    margin-top: 300px;
+}
+
+#how-works-account h3, #how-works-email h3, #how-works-results h3{
+    margin-top: 26px;
+    margin-bottom: 15px;
+}
+
+#how-works-account{
+    margin-left: 424px;
+}
+
+#how-works-email{
+    margin-left: 814px;
+}
+
+#how-works-results{
+    margin-left: 1200px;
+}
+
+/*Pricing here*/
+.pricing{
+    height: 839px;
 }
