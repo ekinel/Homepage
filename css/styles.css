@@ -188,6 +188,8 @@ h4{
     height: 638px;
     background-color: #f5fcfd;
     position: relative; 
+    max-width: 1920px;
+
 }
 
 #scroll-button{
@@ -255,19 +257,15 @@ h4{
 .about{
     height: 1200px;
     background-color: #ffffff;
-}
-
-#about-background-image{
-    position: absolute;
-    width: 1920px;
-    margin-left: -40px;
+    background: url(../img/Rectangles.png) no-repeat;
+    position: relative;
 }
 
 #about-img-1{
     position: absolute;
-    margin-left: 380px;
     margin-top: 75px;
     border-radius: 5px;
+    margin-left: 380px; 
 }
 
 #about-img-2{
@@ -275,15 +273,14 @@ h4{
     margin-left: 550px;
     margin-top: 105px;
     border-radius: 5px;
-    
 }
 
 #about-text-1{
-    position: absolute;
     height: 158px;
     width: 544px;
-    right: 380px;
     margin-top: 220px;
+    margin-right: 402px;
+    float: right;
 }
 
 #about-text-1 h4, #about-text-2 h4{
@@ -311,12 +308,21 @@ h4{
     right: 0;
 }
 
+#about-text-2{
+    position: absolute;
+    width: 544px;
+    height: 210px;
+    margin-top: 755px;
+    margin-left: 390px;
+}
+
 #about-img-3{
     position: absolute;
     margin-top: 650px;
-    margin-right: 370px;
     border-radius: 5px;
-    right: 0;  
+    position: absolute;
+    right: 0;
+    margin-right: 370px;
 }
 
 #about-img-4{
@@ -327,10 +333,8 @@ h4{
     right: 0;  
 }
 
-#about-text-2{
-    position: absolute;
-    width: 544px;
-    height: 210px;
-    margin-top: 755px;
-    margin-left: 390px;
+/*About how-does-it-work here*/
+.how-does-it-work{
+    height: 649px;
+    background-color: #f5fcfd;
 }
