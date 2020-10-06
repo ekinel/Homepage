@@ -30,7 +30,7 @@ h3{
     line-height: 27px;
     color: #333333;
     font-weight: 500;
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand";
     text-align: center;
 }
 
@@ -418,5 +418,86 @@ h4{
 
 /*Pricing here*/
 .pricing{
-    height: 839px;
+    height: 836px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+#plan{
+    position: absolute;
+    width: 322px;
+    height: 159px;
+    margin-left: 390px;
+    margin-top: 300px;
+}
+
+#plan h2{
+    margin-bottom: 24px;
+}
+
+#plan .blue-button{
+    border-radius: 25px 0 0 25px;
+    margin-top: 35px;
+}
+
+#plan .white-button{
+    border-radius: 0 25px 25px 0;
+    position: absolute;
+    margin-top: 35px;
+}
+
+#standard, #premium{
+    width: 360px;
+    height: 576px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 34px rgba(165,165,165,0.25));
+    background-color: #ffffff;
+    margin-top: 130px;
+
+    text-align: center;
+}
+
+#standard{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 130px auto auto auto;
+}
+
+#premium{
+    position: absolute;
+    margin-left: 1200px;
+}
+
+#standard img, #premium img{
+    margin-top: 40px;
+}
+
+#standard h4, #premium h4{
+    margin-top: 10px;
+}
+
+.line{
+    width: 165px;
+    height: 1px;
+    background-color: #e0e0e0;
+    left: 0;
+    right: 0;
+    margin: 28px auto 28px auto;
+}
+
+.price{
+    margin-top: 22px;
+    margin-bottom: 26px;
+
+    font-size: 16px;
+line-height: 36px;
+color: #0f7bff;
+font-weight: 500;
+font-family: "Quicksand";
+text-align: center;
+}
+
+b{
+    font-size: 26px;
 }
