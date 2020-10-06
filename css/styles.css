@@ -491,13 +491,87 @@ h4{
     margin-bottom: 26px;
 
     font-size: 16px;
-line-height: 36px;
-color: #0f7bff;
-font-weight: 500;
-font-family: "Quicksand";
-text-align: center;
+    line-height: 36px;
+    color: #0f7bff;
+    font-weight: 500;
+    font-family: "Quicksand";
+    text-align: center;
 }
 
 b{
     font-size: 26px;
+}
+
+
+/*Testimonials here*/
+
+.testimonials{
+    width: 2021px;
+    height: 608px;
+    background-color: #f5fcfd;
+}
+
+#testimonials-img{
+    position: absolute;
+}
+
+.testimonials h2{
+    margin-left: 880px;
+    margin-top: 130px;
+    position: absolute;
+}
+
+/*Latest news here*/
+.latest-news{
+    height: 963px;
+}
+
+#testim-block-1, #testim-block-2, #testim-block-3{
+    width: 360px;
+    height: 215px;
+    border-radius: 5px;
+    filter: drop-shadow(0 0 12.5px rgba(165,165,165,0.1));
+    background-color: #ffffff;
+
+    margin-left: 880px;
+    margin-top: 200px;
+    position: absolute;
+}
+
+#testim-block-2{
+    margin-left: 1270px;
+}
+
+#testim-block-3{
+    margin-left: 1660px;
+}
+
+#testim-block-1 h3, #testim-block-2 h3, #testim-block-3 h3{
+    text-align: left;
+    margin-top: 35px;
+    margin-left: 30px;
+}
+
+h5{
+    font-size: 14px;
+    line-height: 27px;
+    color: #929292;
+    font-weight: 400;
+    font-family: "Quicksand";
+}
+
+#testim-block-1 h5, #testim-block-2 h5, #testim-block-3 h5{
+    margin-left: 30px;
+    margin-bottom: 25px;
+}
+
+#testim-block-1 h4, #testim-block-2 h4, #testim-block-3 h4{
+    margin-left: 30px;
+
+}
+
+.icon-twitter{
+    background: url(../img/icon-twitter.png) center no-repeat;
+    width: 13px;
+    height: 17px;
 }
