@@ -373,7 +373,7 @@ h4{
     right: 0;
 }
 
-#blue-image-1{
+.blue-image-1{
     background: url(../img/symbol-1.png) no-repeat;
     width: 65px;
     height: 65px;
@@ -382,7 +382,7 @@ h4{
     margin-left: 893px;
 }
 
-#blue-image-2{
+.blue-image-2{
     background: url(../img/symbol-2.png) no-repeat;
     width: 65px;
     height: 65px;
@@ -574,4 +574,90 @@ h5{
     background: url(../img/icon-twitter.png) center no-repeat;
     width: 13px;
     height: 17px;
+}
+
+/*Latest News here*/
+#latest-news-text{
+    text-align: center;
+    width: 731px;
+    height: 129px;
+    margin: 0 auto;
+    margin-top: 155px;
+}
+
+#latest-news-text h4{
+    margin-top: 20px;
+}
+
+#latest-news-posts{
+    max-width: 1120px;
+    height: 532px;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+#latest-news-posts-1{
+    width: 50%;
+    float: left;
+}
+
+#latest-news-post-1-img{
+    width: 555px;
+    height: 285px;
+    border-radius: 5px;
+    background-color: #999999;
+}
+
+#latest-news-posts-1 .blue-link{
+    width: 125px;
+    height: 30px;
+}
+
+#latest-news-posts-1 h4{
+    margin-bottom: 30px;
+}
+
+h5{
+    font-size: 24px;
+    line-height: 36px;
+    color: #0f7bff;
+    font-weight: 500;
+    font-family: "Quicksand";
+
+    margin-top: 35px;
+    margin-bottom: 15px;
+}
+
+
+#latest-news-posts-2, #latest-news-posts-3, #latest-news-posts-4{
+    width: 50%; 
+    float: right;
+    margin-bottom: 40px;
+}
+
+#latest-news-post-2-img, #latest-news-post-3-img, #latest-news-post-4-img{
+    width: 165px;
+    height: 120px;
+    border-radius: 5px;
+    background-color: #b1b1b1;
+    float: left;
+}
+
+#latest-news-posts-2-text, #latest-news-posts-3-text, #latest-news-posts-4-text{
+    width: 340px;
+    height: 115px;
+    margin-left: 195px;
+}
+
+#latest-news-posts-2-text h3, #latest-news-posts-3-text h3, #latest-news-posts-4-text h3{
+    text-align: left;
+    width: 367px;
+    height: 57px;
+}
+
+/*Free Trial here*/
+.free-trial{
+    width: 1920px;
+height: 336px;
+background-color: #f5fcfd;
 }
