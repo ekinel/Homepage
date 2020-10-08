@@ -73,7 +73,7 @@ h4{
     text-align: center;
 }
 
-#logo{
+.logo{
     width: 179px;
     height: 100px;
     background-color: #0F7BFF;
@@ -91,7 +91,7 @@ h4{
 
 }
 
-#logo-text{
+.logo-text{
     padding-left: 20px;
 }
 
@@ -687,4 +687,120 @@ h5{
     width: 20px;
     height: 14px;
     margin-top: 7px;
+}
+
+/*Footer here*/
+footer{
+    width: 1920px;
+    height: 500px;
+    background-color: #0f7bff;
+    position: relative;
+}
+
+footer .logo{
+    margin: 0;
+    padding:0;
+    text-align: center;
+    position: absolute;
+    right: 50%;
+    margin-top: 120px;
+}
+
+#email-button{
+    width: 392px;
+    height: 60px;
+    border: 2px solid #ffffff;
+    border-radius: 25px 0 0 25px;
+    background-color: #0f7bff;
+    text-align: center;
+
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Quicksand";
+    float: left;
+}
+
+#subscribe-button{
+    width: 165px;
+height: 60px;
+border-radius: 0 25px 25px 0;
+background-color:  #ffffff;
+
+font-size: 16px;
+line-height: 27px;
+color: #0f7bff;
+font-weight: 700;
+font-family: "Quicksand";
+text-align: center;
+}
+
+#footer-buttons{
+    position: absolute;
+    right: 40%;
+    margin-top: 195px;
+}
+
+#footer-line{
+    width: 1920px;
+height: 1px;
+background-color: #ffffff;
+position: absolute;
+top: 70%;
+}
+
+#footer-copyright, #footer-terms-conditions{
+    font-size: 16px;
+    line-height: 27px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Quicksand";
+
+    position: absolute;
+    bottom: 10%;
+    left: 10%;
+}
+
+#footer-terms-conditions{
+    position: absolute;
+    left: 46%;
+}
+
+#footer-privacy, #footer-help{
+    font-size: 16px;
+    line-height: 27px;
+    color:#d8d8d8;
+    font-weight: 400;
+    font-family: "Quicksand";
+    text-align: right;
+    position: absolute;
+    bottom: 10%;
+    left: 56%;
+}
+
+#footer-help{
+    left: 64%;
+}
+
+#footer-social{
+    position: absolute;
+    width: 80px;
+    height: 24px;
+    bottom: 10%;
+    left: 72%;
+}
+
+.footer-media-img{
+    margin-right: 10px;
+}
+
+#footer-arrow{
+    width: 45px;
+    height: 45px;
+    border-radius: 3px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: 10%;
+    left: 90%;
 }
