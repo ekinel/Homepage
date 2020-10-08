@@ -658,6 +658,33 @@ h5{
 /*Free Trial here*/
 .free-trial{
     width: 1920px;
-height: 336px;
-background-color: #f5fcfd;
+    height: 336px;
+    background-color: #f5fcfd;
+    position: relative;
+}
+
+#free-trial-text{
+    position: absolute;
+    top: 50%;
+    left: 31%;
+}
+
+#free-trial-text h4{
+    margin-top: 20px;
+}
+
+#started-button{
+    width: 263px;
+    height: 76px;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    
+}
+
+.icon-white-arrow{
+    width: 20px;
+    height: 14px;
+    margin-top: 7px;
 }
